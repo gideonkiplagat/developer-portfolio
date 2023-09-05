@@ -12,27 +12,27 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Gideon kiplagat',
+  title: "Hi all, I'm Gideon",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm passionate Full Stack developer having an experience with  Python, Django,SQL, API, HTML,Javascript, cloud, Git, PowerBI, Machine learning and Kubernetes."
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://drive.google.com/file/d/1w22H50mgwnBU990cDHi2LCaKZtEfljfi/view?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'gideonkiplagat'
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  url: 'https://gideonkliplagat.github.io/',
+  linkedin: 'https://www.linkedin.com/in/gideon-kiplagat-2669761ba/',
+  github: 'https://github.com/gideonkiplagat',
+  instagram: 'https://www.instagram.com/truth_mustache/',
+  facebook: 'https://www.facebook.com/gideon.kiplagat.7374',
+  twitter: 'https://twitter.com/kiplagatTruth',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -40,7 +40,7 @@ export const skillsSection: SkillsSectionType = {
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Full Stack Developer',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
@@ -77,15 +77,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Django',
           iconifyTag: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
-        },
-        {
-          skillName: 'NPM',
-          iconifyTag: 'logos:npm-icon',
         },
         {
           skillName: 'Yarn',
@@ -147,48 +138,6 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Sentry',
           iconifyTag: 'logos:sentry-icon',
         },
-      ],
-    },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          iconifyTag: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          iconifyTag: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          iconifyTag: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          iconifyTag: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          iconifyTag: 'logos:ganache-icon',
-        },
-      ],
     },
   ],
 };
